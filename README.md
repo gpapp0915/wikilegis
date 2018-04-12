@@ -12,10 +12,13 @@ Collaborative editing of legislative texts. See https://edemocracia.camara.leg.b
 # Installation
 
 Make a new Directory then within the directory. 
+In MacOs you will need xcode tools to help with the C complier. 
+In windows see this for the c complier https://www.youtube.com/watch?v=lOEjcHfY680
 
 ```bash
 $ git init 
 $ python -m pip install -U pip
+$ pip install Pillow
 $ git clone https://github.com/labhackercd/wikilegis.git
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ cd wikilegis
